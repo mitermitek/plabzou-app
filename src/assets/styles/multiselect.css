@@ -1,0 +1,46 @@
+.multiselect {
+    font-size: 14px;
+}
+
+.multiselect__option--highlight {
+    background: #f9b533;
+}
+
+.multiselect__option--highlight:after {
+    background: #f9b533;
+}
+
+.multiselect__tags {
+    border: 1px solid #bcc5cc;
+    background: #f6f8f8;
+}
+
+.multiselect__tag {
+    border: 0;
+    background: #3a477b;
+}
+
+.multiselect__tag-icon::after {
+    color: #f6f8f8;
+}
+
+.multiselect__input, .multiselect__single {
+    background: #f6f8f8;
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.multiselect__placeholder {
+    color: #b2babf;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.multiselect__option--selected.multiselect__option--highlight {
+    background: #f9b533;
+}
+
+.multiselect__option--selected.multiselect__option--highlight::after {
+    background: #f9b533;
+}
